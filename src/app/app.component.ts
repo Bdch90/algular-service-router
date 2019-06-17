@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
     title = 'angular-service-router';
-  
+
     constructor(private router: Router) {}
     gotoTimelines() {
       this.router.navigate(['/timelines']);

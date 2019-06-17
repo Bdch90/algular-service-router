@@ -1,5 +1,33 @@
-<nav>
-    <a routerLink="timelines" class="link"> Ứng dụng tính thời gian </a>
+<hr>
+<div class="container" style="height: auto">
+  <nav class="navbar">
+    <div id="nav" class="container-fluid">
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a routerLink="/" class="link">Home</a>
+          </li>
+          <li>
+            <a routerLink="dictionary" class="link">Dictionary</a>
+          </li>
+          <li>
+            <a routerLink="youtube" class="link">Youtube</a>
+          </li>
+          <li>
+            <a routerLink="blog" class="link">Blog</a>
+          </li>
+          <li>
+            <a routerLink="login-step-1" class="link">Login</a>
+          </li>
+          <li>
+            <a routerLink="timelines" class="link">Ứng dụng tính thời gian</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<nav class="">
 </nav>
-<button class="link" (click)="gotoTimelines()">Ứng dụng tính thời gian</button>
+<app-dictionary></app-dictionary>
 <router-outlet></router-outlet>
